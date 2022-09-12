@@ -1,0 +1,16 @@
+{
+  "name": "vercel_sanity_algolia_serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Mutesa-Cedric/vercel_sanity_algolia_serverless.git",
+  "author": "Mutesa-Cedric <mutesacedric@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@sanity/client": "^3.4.1",
+    "@types/node": "^18.7.16",
+    "@vercel/node": "^2.5.14",
+    "algoliasearch": "^4.14.2",
+    "sanity-algolia": "^1.0.2",
+    "ts-node": "^10.9.1"
+  }
+}

@@ -6,7 +6,7 @@ const sanity = sanityClient({
     // If your dataset is private you need to add a read token.
     // You can mint one at https://manage.sanity.io,
     token: process.env.SANITY_TOKEN || undefined,
-    apiVersion: '2021-10-21',
+    apiVersion: '2021-03-25',
     useCdn: false,
 })
 

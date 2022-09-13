@@ -1,7 +1,7 @@
 import sanityClient from '@sanity/client'
 
 const sanity = sanityClient({
-    projectId: process.env.SANITY_PROJECT_ID,
+    projectId: process.env.SANITY_PROJECT_ID||'tzrmay28',
     dataset: process.env.SANITY_DATASET || 'production',
     // If your dataset is private you need to add a read token.
     // You can mint one at https://manage.sanity.io,
